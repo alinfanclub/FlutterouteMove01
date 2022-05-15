@@ -23,6 +23,7 @@ class screenA extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("ScreenA"),
+        centerTitle: true,
         backgroundColor: Colors.greenAccent,
         elevation: 0.0,
       ),

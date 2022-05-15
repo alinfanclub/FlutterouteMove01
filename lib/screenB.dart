@@ -23,6 +23,7 @@ class screenB extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("ScreenB"),
+        centerTitle: true,
         backgroundColor: Color.fromARGB(255, 240, 105, 193),
         elevation: 0.0,
       ),
